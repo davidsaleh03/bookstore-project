@@ -7,6 +7,7 @@
      font-family: "Roboto", sans-serif;
 }
 
+
 nav {
     height: 80px;
     display: flex;
@@ -14,6 +15,8 @@ nav {
 
 img {
     width: 100%;
+    height: 100%;
+    max-height: 50vh;
 }
 
 .nav__container {
@@ -84,6 +87,12 @@ header {
     justify-content: space-around;
 }
 
+.header__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
     font-size: 56px;
     color: #7342d6;
@@ -113,4 +122,40 @@ button:active {
     border-radius: 4px;
     border: none;
    
+}
+
+.header__img--wrapper {
+    padding: 20px;
+}
+
+.container {
+padding: 56px 0;
+
+}
+
+.row {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+/* 
+
+HIGHLIGHTS 
+
+*/
+
+.highlight__wrapper {
+    display: flex;
+}
+
+.highlight {
+    padding: 0 24px;
+    width: calc(100%/3);
+}
+
+.highlight__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
